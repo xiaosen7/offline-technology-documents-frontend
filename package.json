@@ -1,0 +1,41 @@
+{
+  "name": "29-technique-docs-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "replace-html": "tsx scripts/replace-html.ts",
+    "download": "tsx scripts/download-third-party.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/get-port": "^4.2.0",
+    "@types/http-server": "^0.12.4",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.11.26",
+    "@types/open": "^6.2.1",
+    "@types/serve-static": "^1.15.5",
+    "express": "^4.18.3",
+    "get-port": "^7.0.0",
+    "htmlparser2": "^9.1.0",
+    "http-server": "^14.1.1",
+    "open": "^10.1.0",
+    "serve-static": "^1.15.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "lodash-es": "^4.17.21"
+  }
+}
