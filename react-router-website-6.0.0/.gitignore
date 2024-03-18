@@ -1,0 +1,13 @@
+.ds_store
+
+/.cache
+/.env
+/node_modules
+
+/public/build
+/server/build
+
+/prisma/*.db-journal
+/prisma/*.db
+
+/app/styles
