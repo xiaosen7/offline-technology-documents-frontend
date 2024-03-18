@@ -1,7 +1,0 @@
-{
-  "name": "reactrouter-website",
-  "private": true,
-  "devDependencies": {
-    "firebase-tools": "^9.16.0"
-  }
-}
