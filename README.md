@@ -1,13 +1,25 @@
-## 环境
+## 开发环境
 
-Node>=20
+Node>=16
 
 ## 安装依赖
 
 `pnpm i`
 
-## 启动文档
+如果没有 pnpm，可以执行 `npm i pnpm -g` 安装
 
-- 启动方式 1：进入 docs 下的任意文档目录执行 `pnpm http-server -c-1`，比如进入 docs/echarts 然后命令行中执行 `pnpm http-server -c-1`, -c-1 代表不使用缓存
+## 构建
 
-- 启动方式 2：`pnpm http-server -c-1 ./docs/echarts`
+`pnpm build`
+
+每次构建后请手动切换到 node 10 版本，测试 `docs/index.js` 能否正常运行
+
+## 使用
+
+用 node 运行 docs 目录下的 index.js 文件：`node docs/index.js`，这将为 docs 下的每个文件夹启动一个服务器
+
+## 开发
+
+`pnpm dev`
+
+> 这将开启监听模式构建 `src/index.ts` 到 `docs/index.js`，每次构建完成后自动运行 `node docs/index.js` 命令
